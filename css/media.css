@@ -1,0 +1,143 @@
+@media only screen and (max-width: 1140px) {
+
+    .navlist{
+        flex-direction: column;
+    }
+
+    .navbar{
+        flex-direction: column;
+        height: 450px;
+        transition: all 0.9s ease-out;
+
+    }
+
+    .rightnav{
+        text-align: center;    
+        display: none;
+    }
+
+    .logo{
+        display: none;
+    }
+    #search{
+        width: 100%;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .h-nav-resp{
+        height: 72px;
+    }
+
+    .v-class-resp{
+        opacity: 0;
+    }
+
+    .intro{
+        font-size: 38px;
+    }
+
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+        height: 97%;
+    }
+
+    .secr{
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+
+    .about-me{
+        flex-direction: column
+    }
+
+
+    .social{
+        display: block;
+        padding: 0 30%;
+        padding-top: 12px;
+        right: 0%;
+        position: relative;
+    }
+
+    .f-last{
+        display: block;
+    }
+
+    .dev-image img{
+        width: 100%;
+        margin: 10px 50%;
+        margin-bottom: 0px;
+    }
+    .dev-info p{
+
+        font-size: large;
+         margin: 0 0;
+        height: auto
+    }
+    .dev-info{
+        width: 100%;
+    }
+
+    .dev-image{
+        width: 50%;
+    }
+
+    .contact{
+        height: auto;
+        display: block;
+    }
+
+    .right-contact{
+        width: auto;
+        padding: 0;
+
+
+    }
+
+    .contact-box{
+        width: 98%;
+        margin: 0 0;
+        display: block;
+    }
+
+    .work{
+        width: auto;
+        display: block;
+        padding-right: 0;
+        row-gap: 0;
+
+    }
+
+    .f-box{
+        width: 100%;
+        padding: 0 0;
+        margin: 0;
+
+    }
+
+    .work-small{
+        padding-bottom: 44px;
+    }
+
+    .fluid{
+        padding: 0%;
+        margin: 44px;
+    }
+
+    .thim1 img {
+        width: 300px;
+        margin-left: 0;
+    }
+
+    .second-half img {
+        height: auto;
+        margin-left: 0;
+    }
+
+
+}
